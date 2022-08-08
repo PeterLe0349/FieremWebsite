@@ -1,0 +1,13 @@
+:root {
+    --purple: purple;
+}
+
+body{
+    color: var(--purple);
+    counter-reset: ct;
+}
+
+p::before {
+    counter-increment: ct;
+    content: "#" counter(ct) ": "
+}
