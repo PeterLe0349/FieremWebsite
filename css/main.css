@@ -3,11 +3,11 @@
 }
 
 body{
-    color: var(--purple);
+    /*color: var(--purple);*/
     counter-reset: ct;
 }
 
 p::before {
-    counter-increment: ct;
-    content: "#" counter(ct) ": "
+    /*counter-increment: ct;*/
+    /*content: "#" counter(ct) ": "*/
 }
